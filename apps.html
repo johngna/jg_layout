@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JG Template</title>
+
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css"></style>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css"></style>
+    <!-- font awesome -->
+    <link href="assets/css/all.css" rel="stylesheet">
+    <script defer src="assets/js/all.js"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- anychart -->
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-data-adapter.min.js"></script>
+    <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav id="navbar_top" class="navbar navbar-light">
+        <a class="navbar-brand" href="#">JG</a>
+        <form class="form-inline search-box">
+            <div class="input-group">
+                <input type="search" class="form-control" placeholder="Pesquisar" aria-label="Pesquisar" >
+            </div>
+        </form>
+        <div class="user_bar">
+            <button class="btn rounded-circle"><i class="far fa-commenting"></i></button>
+            <button class="btn rounded-circle"><i class="fa fa-cog"></i></button>
+            <button class="rounded-circle bg-light" style="width: 50px; height: 50px;">
+                <i class="far fa-user"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="content-area">
+
+        <!-- MENU -->
+        <div class="menu">
+            <button class="btn_menu active">
+                <i class="fas fa-home"></i>
+                <span>Texto</span>
+            </button>
+            <button class="btn_menu">
+                <i class="fas fa-plus-circle"></i>
+                <span>Texto</span>
+            </button>
+            <button class="btn_menu">
+                <i class="fas fa-folder"></i>
+                <span>Texto</span>
+            </button>
+            <button class="btn_menu">
+                <i class="fas fa-users"></i>
+                <span>Texto</span>
+            </button>
+            <button class="btn_menu last">
+                <i class="fas fa-th-large"></i>
+                <span>Texto</span>
+            </button>            
+        </div>
+
+        <!-- CONTEÚDO -->
+        <div class="content">
+
+            <div class="row mb-2">
+                <div class="col">
+                    <h4>Recent</h4>
+                </div>
+                <div class="col">
+                    <a href="#" class="float-right">Mais</a>
+                </div>
+                
+                
+            </div>
+                      
+
+            <div class="row">
+                
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-home bg-warning" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                     <i class="circle fas fa-folder bg-primary" style="height: 70px; width: 70px;">                                     
+                                     </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                   <div class="card  bg-transparent p-0">
+                       <div class="row no-gutters">
+                           <div class="col-md-4">
+                               <div class="circle_area">
+                                   <i class="circle fas fa-users bg-secondary" style="height: 70px; width: 70px;">
+                                   </i>
+                               </div>
+                           </div>
+                           <div class="col-md-8">
+                               <div class="card-body">
+                                   <h6 class="card-title">Card title</h6>
+                                   <p class="card-text">Texto descritivo detalhado</p>
+
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-file bg-info" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row mb-2 mt-5">
+                <div class="col">
+                    <h4>Popular</h4>
+                </div>
+                <div class="col">
+                    <a href="#" class="float-right">Mais</a>
+                </div>
+                
+                
+            </div>
+                      
+
+            <div class="row">
+                
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-star bg-warning" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                     <i class="circle fas fa-star bg-primary" style="height: 70px; width: 70px;">                                     
+                                     </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                   <div class="card  bg-transparent p-0">
+                       <div class="row no-gutters">
+                           <div class="col-md-4">
+                               <div class="circle_area">
+                                   <i class="circle fas fa-star bg-secondary" style="height: 70px; width: 70px;">
+                                   </i>
+                               </div>
+                           </div>
+                           <div class="col-md-8">
+                               <div class="card-body">
+                                   <h6 class="card-title">Card title</h6>
+                                   <p class="card-text">Texto descritivo detalhado</p>
+
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-star bg-info" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-star bg-info" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-star bg-dark" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-star bg-success" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mt-2">
+                    <div class="card  bg-transparent p-0">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <div class="circle_area">
+                                    <i class="circle fas fa-star bg-danger" style="height: 70px; width: 70px;">
+                                    </i>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Card title</h6>
+                                    <p class="card-text">Texto descritivo detalhado</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                     
+
+
+        </div>
+
+    </div>
+    
+ 
+    <!-- Bootstrap Scripts -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- Main JS -->
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/pages/apps.js"></script>
+</body>
+</html>

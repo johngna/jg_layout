@@ -1,0 +1,61 @@
+.login-area{
+    background-color: white;
+    /* border: 1px solid gainsboro; */
+    padding: 25px;
+    padding-bottom: 50px;
+    width: 32%;
+    min-width: 333px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 35px 1px rgb(200,200,200);
+    border-radius: 10px;
+}
+
+.login-area2{
+    background-color: rgb(247,247,247);
+    /* border: 1px solid gainsboro; */
+    padding: 35px;
+    padding-bottom: 50px;
+    width: 40%;
+    min-width: 333px;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 35px 1px rgb(200,200,200);
+    height: 100vh;
+    
+}
+
+.login-area3{
+    background-color: white;
+    background-image: url('../../img/3094352.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* border: 1px solid gainsboro; */
+    padding: 35px;
+    padding-bottom: 50px;
+    width: 30%;
+    min-width: 333px;
+   
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+body{
+    /* background: rgb(9,75,121);
+    background: linear-gradient(90deg, rgba(9,75,121,1) 39%, rgba(0,176,255,1) 100%); */
+}
+
+.login-info{
+    background-color: white;
+    /* border: 1px solid gainsboro; */
+    padding: 25px;
+    padding-bottom: 50px;
+    width: 32%;
+    min-width: 333px;
+    margin-top: 50px;
+    color: white;
+    border-radius: 10px;
+    background: rgb(9,75,121);
+    background: linear-gradient(90deg, rgba(9,75,121,1) 39%, rgba(0,176,255,1) 100%);
+}
