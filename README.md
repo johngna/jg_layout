@@ -1,4 +1,4 @@
-## JG Layout - Bootstrap Admin Template (Current: Laravel 1.*) 
+## JG Layout - Bootstrap Admin Template (Current:  1.*) 
 
 ### Official Documentation
 
