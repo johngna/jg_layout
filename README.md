@@ -11,7 +11,6 @@
 <a href="https://ibb.co/L1dgrjd"><img src="https://i.ibb.co/qpYgCqY/04-jglayout.jpg" alt="04-jglayout" border="0"></a>
 <a href="https://ibb.co/WFn7L3G"><img src="https://i.ibb.co/Qn9h4cp/05-jglayout.jpg" alt="05-jglayout" border="0"></a>
 <a href="https://ibb.co/YZKH3TL"><img src="https://i.ibb.co/k1rNx6S/06-jglayout.jpg" alt="06-jglayout" border="0"></a>
-<a href="https://ibb.co/YZKH3TL"><img src="https://i.ibb.co/k1rNx6S/06-jglayout.jpg" alt="06-jglayout" border="0"></a>
 <a href="https://ibb.co/0qTG4fc"><img src="https://i.ibb.co/kKjSbhx/08-jglayout.jpg" alt="08-jglayout" border="0"></a>
 <a href="https://ibb.co/TgYc7vz"><img src="https://i.ibb.co/gRmyfjs/09-jglayout.jpg" alt="09-jglayout" border="0"></a>
 <a href="https://ibb.co/9vjNphf"><img src="https://i.ibb.co/th54HzN/10-jglayout.jpg" alt="10-jglayout" border="0"></a>
