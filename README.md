@@ -22,6 +22,4 @@
 Template clean em html desenvolvido com bootstrap 4
 
 
-### License
 
-MIT: [http://anthony.mit-license.org](http://anthony.mit-license.org)
