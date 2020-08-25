@@ -3,7 +3,7 @@
 ### Official Documentation
 
 
-<a href="https://ibb.co/DRtZkG7"><img src="https://ibb.co/DRtZkG7" alt="jglayout"/></a>
+<img src="https://tracking.gitads.io/?repo=laravel-boilerplate" alt="jglayout"/>
 
 ### Introduction
 
